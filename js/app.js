@@ -163,7 +163,7 @@ function filtrarAuto(){
 
     //console.log(resultado)
 
-    if( resultado,length ){
+    if( resultado.length ){
         mostrarAutos(resultado) //ya estamos filtrando la marca y el años, no se refleja en el resultado eso es porque tenemos que volver a llamar el html // llamamos esta funcion nuevamente y le pasamos resultado, tambien debemos colcoar en mostrar auto mas arriba la funcion lo q seria un paramtro para poder ayudar a q funcione dicha funcion, indicamos tambien q al filtrar si filtra pero se coloca en la parte de abajo y  no actualiza todo el HTML
 
     }else {
